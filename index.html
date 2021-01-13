@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Demo</title>
+</head>
+
+<body>
+
+    <main>
+
+        <header>
+            <h1>Form Demo</h1>
+        </header>
+
+        <form>
+            <fieldset>
+
+                <legend>Text Input</legend>
+
+                <label for="TextBox">Text Box</label>
+                <input type="text" name="TextBox" placeholder="Text Here" required>
+
+                <br><br>
+
+                <label for="PasswordBox">Password</label>
+                <input type="password" name="PasswordBox" placeholder="*****" required>
+
+                <br><br>
+
+                <label for="TextArea">Text Area</label>
+                <textarea rows="5" cols="120" name="Text Area">
+                    Your Text Here
+                </textarea>
+
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+
+                <legend>Selecting Elements</legend>
+                <label>Select List</label>
+                <select name="dropdown">
+                    <option value="One" selected>One</option>
+                    <option value="Two">Two</option>
+                </select>
+
+                <br><br>
+
+                <label>Check Boxes</label>
+                <input type="checkbox" name="check" value="GreenEggs"> Green Eggs
+                <input type="checkbox" name="check" value="Ham"> Ham
+
+                <br><br>
+
+                <label>Radio Buttons</label>
+                <input type="radio" name="Rbuttons" value="small" checked> small
+                <input type="radio" name="Rbuttons" value="medium"> medium
+                <input type="radio" name="Rbuttons" value="Large"> large
+            </fieldset>
+            <br>
+
+            <fieldset>
+
+                <legend>Buttons</legend>
+
+                <button>Standard Button</button>
+                <input type="submit" name="Input Button" value="Input Button" />
+
+                <input type="reset" name="reset" value="Reset" />
+                <input type="submit" name="submit" value="submit" />
+
+            </fieldset>
+
+        </form>
+
+    </main>
+
+</body>
+
+</html>
